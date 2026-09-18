@@ -519,9 +519,9 @@
           form.reset();
           form.classList.add('submitted');
           if (confirmBox) { confirmBox.classList.add('show'); }
-          if (submitBtn) { submitBtn.textContent = 'Request a consultation'; submitBtn.disabled = false; }
+          if (submitBtn) { submitBtn.textContent = 'Submit'; submitBtn.disabled = false; }
         }).catch(function () {
-          if (submitBtn) { submitBtn.textContent = 'Request a consultation'; submitBtn.disabled = false; }
+          if (submitBtn) { submitBtn.textContent = 'Submit'; submitBtn.disabled = false; }
           if (noteEl) {
             noteEl.textContent = "Something went wrong sending that — please email thomaswayneconsultants@gmail.com directly.";
             noteEl.style.color = 'var(--gold)';
